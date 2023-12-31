@@ -127,8 +127,10 @@ pta chle ga us ke datatype ki kya type hai.
 
     $name = "Rawaid Khan";
     $gender = "male";
-    if($gender == "male "){
-        
+    if($gender == "male" && $name == "Rawaid Kha"){
+        echo "It is right";
+    }else{
+        echo "it is not right";
     }
          ?>
     

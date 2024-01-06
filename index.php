@@ -125,13 +125,98 @@ pta chle ga us ke datatype ki kya type hai.
 
     //** if else statement */
 
-    $name = "Rawaid Khan";
-    $gender = "male";
-    if($gender == "male" && $name == "Rawaid Kha"){
-        echo "It is right";
-    }else{
-        echo "it is not right";
-    }
+    // $name = "Rawaid Khan";
+    // $gender = "male";
+    // if($gender == "male" && $name == "Rawaid Kha"){
+    //     echo "It is right";
+    // }else{
+    //     echo "it is not right";
+    // }
+
+
+    //**   if elseif  ***/
+
+// $per= 110;
+
+// if($per >=80 && $per <=100 ){
+//     echo "You are Merit";
+
+// }else if($per >=60 && $per <80){
+// echo "You are the Ist Division";
+
+// }else if($per >=45 && $per <60){
+//     echo "You are the IInd Division";
+//     }else if($per >=33 && $per <45){
+//         echo "You are the IIIrd Division";
+//         }else if($per < 33){
+//             echo "You are Fail";
+//             }else{
+//                 echo "You are UNValid Percentage";
+//             }
+
+               // ***  Switch Case ///
+            //    $weedday= 90;
+            //    switch($weedday){
+            //     case 1: 
+            //         echo "Today is Monday";
+            //         break;
+            //     case 2:
+            //             echo "Today is Tuesday";
+            //             break;
+            //     case 3:
+            //         echo "Today is Wednesday";
+            //         break;
+            //     case 4: 
+            //         echo "Today is Thursday";
+            //         break;
+            //     case 5 :
+            //         echo "Today is Friday";
+            //         break;
+            //     case 6 :
+            //         echo "Today is Sturaday";
+            //         break;
+            //     case 7:
+            //         echo "Today is Sunday";
+            //         break;
+            //         default:
+            //         echo "Please valid the Weekday";            
+            //    }
+                   
+            
+            /// Switch case ke andr comparison aur logical operator use kiye he.
+            // $age =12;
+            // switch(true){
+            //     case ($age >=15 && $age <=20):
+            //         echo "You are Eligible";
+            //         break;
+            //     case ($age >=21 && $age <=30):
+            //         echo "You are not Eligible";
+            //         break;
+            //         default:
+            //         echo "Please entre the valid age.";     
+            // }
+
+            //** String operator */
+            // $s = "Hellow ";
+            // $s .= "How are you ";
+            // $s .= "and what to do?";
+            // echo $s;
+
+          // difference B/w double and single quotes"
+          //eg#1
+        //   $name = "Rawaid Khan";
+        //   echo "My name is {$name}<br>"; 
+        //   echo 'My name is $name';
+        //eg#2
+        // $name = "RawaidKhan";
+        // echo "My name is 'RawaidKhan'<br> ";
+        // echo 'My name is "RawaidKhan" ';
+        //eg#3
+        // $name = "RawaidKhan";
+        // echo "My name is \"RawaidKhan\" <br>";
+        // echo 'My name is \'RawaidKhan\'';
+            ///** Ternary Operator */
+           
          ?>
     
 </body>
